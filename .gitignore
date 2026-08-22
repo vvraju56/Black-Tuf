@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build outputs / caches
+.next/
+.vercel/
+.wrangler/
+out/
+dist/
+.turbo/
+tsconfig.tsbuildinfo
+
+# Python
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# IDEs / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Databases / logs
+*.db
+uvicorn.err.log
+uvicorn.out.log
+
+# Flutter / mobile builds
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+ephemeral/
+android/app/.cxx/
+ios/Pods/
+
+# Secrets - never commit
+.env
+.env.local
+.env.*.local
+keys.env
+apikey.txt
+*adminsdk*.json
+firebase-service-account.json
+google-services.json
+firebase-service-account*.json
+
+# Duplicate snapshot folders
+black-tuf-free/black-tuf - Copy/
+Black-Tuf-job/Job - Copy/
+Black-Tuf-job/Job - Copy (3)/
+
+# Nested git repos (backed up as .git_backup)
+.git_backup/

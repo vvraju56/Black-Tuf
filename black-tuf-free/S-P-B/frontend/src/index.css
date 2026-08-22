@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    background-image: var(--tw-gradient-dark-gradient);
+  }
+}
+
+@layer components {
+  .glass {
+    @apply rounded-xl border border-white/5 bg-card/50 backdrop-blur;
+  }
+  .glass-strong {
+    @apply rounded-xl border border-white/10 bg-card/70 backdrop-blur-xl;
+  }
+  .glass-button {
+    @apply rounded-md border border-white/10 bg-white/5 hover:bg-white/10;
+  }
+  .product-card {
+    @apply bg-card border border-border rounded-xl overflow-hidden shadow-card transition-transform duration-200 hover:scale-[1.02];
+  }
+  ::selection {
+    background-color: theme(colors.primary);
+    color: #0a0a0f;
+  }
+}
