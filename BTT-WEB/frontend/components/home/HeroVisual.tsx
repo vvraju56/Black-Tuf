@@ -16,7 +16,7 @@ export function HeroVisual({ products }: { products: Product[] }) {
   return (
     <div className="relative mx-auto aspect-[1.03/1] w-full max-w-[34rem] lg:ml-auto">
       <div
-        className="absolute inset-0 rounded-[3rem] border border-white/[0.06] bg-[radial-gradient(circle_at_50%_35%,rgba(255,121,238,0.10),transparent_58%)]"
+        className="absolute inset-0 rounded-[3rem] border border-white/[0.06] bg-[radial-gradient(circle_at_50%_35%,rgba(59,130,246,0.10),transparent_58%)]"
         aria-hidden
       />
       <div className="absolute inset-6 rounded-[2.5rem] border border-white/[0.05]" aria-hidden />

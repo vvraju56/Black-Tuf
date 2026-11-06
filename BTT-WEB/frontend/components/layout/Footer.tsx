@@ -44,7 +44,7 @@ export function Footer({
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            'radial-gradient(circle at 20% 0%, rgba(255,121,238,0.08), transparent 32%), linear-gradient(180deg, #080808, #050505)',
+            'radial-gradient(circle at 20% 0%, rgba(59,130,246,0.08), transparent 32%), linear-gradient(180deg, #080808, #050505)',
         }}
         aria-hidden
       />
@@ -72,7 +72,7 @@ export function Footer({
               ) : null}
             </div>
             <p className="mt-6 inline-flex items-center gap-2 rounded-full border border-white/[0.07] bg-white/[0.025] px-3 py-1.5 text-[0.65rem] font-medium uppercase tracking-[0.14em] text-ink-faint">
-              <span className="h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_8px_rgba(255,121,238,0.9)]" />
+              <span className="h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_8px_rgba(59,130,246,0.9)]" />
               Micro Enterprise · Services
             </p>
           </div>

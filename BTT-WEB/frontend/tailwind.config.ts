@@ -19,9 +19,9 @@ const config: Config = {
         surface: '#080808',
         elevated: '#0d0d12',
         accent: {
-          DEFAULT: '#ff79ee',
-          soft: '#ffb8f4',
-          deep: '#c63fb3',
+          DEFAULT: '#3b82f6',
+          soft: '#93c5fd',
+          deep: '#1d4ed8',
         },
         ink: {
           DEFAULT: '#f7f5f8',
@@ -39,13 +39,13 @@ const config: Config = {
         '5xl': '2.75rem',
       },
       boxShadow: {
-        glow: '0 0 0 1px rgba(255,121,238,0.25), 0 20px 60px -20px rgba(255,121,238,0.35)',
-        'glow-sm': '0 0 30px -8px rgba(255,121,238,0.45)',
+        glow: '0 0 0 1px rgba(59,130,246,0.25), 0 20px 60px -20px rgba(59,130,246,0.35)',
+        'glow-sm': '0 0 30px -8px rgba(59,130,246,0.45)',
         card: '0 24px 70px -35px rgba(0,0,0,0.9)',
       },
       backgroundImage: {
         'hero-glow':
-          'radial-gradient(circle at 78% 8%, rgba(255,121,238,0.16), transparent 34%), radial-gradient(circle at 10% 30%, rgba(124,58,237,0.10), transparent 32%)',
+          'radial-gradient(circle at 78% 8%, rgba(59,130,246,0.16), transparent 34%), radial-gradient(circle at 10% 30%, rgba(124,58,237,0.10), transparent 32%)',
         'grid-fade':
           'linear-gradient(to right, rgba(255,255,255,0.045) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.045) 1px, transparent 1px)',
       },

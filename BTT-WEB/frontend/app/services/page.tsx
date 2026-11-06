@@ -167,12 +167,12 @@ export default async function ServicesPage() {
 
       <section className="py-16 sm:py-20">
         <div className="container-page">
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/[0.1] bg-[linear-gradient(135deg,rgba(255,255,255,0.05),rgba(255,121,238,0.06))] px-6 py-12 text-center sm:px-12 sm:py-16">
+          <div className="relative overflow-hidden rounded-[2rem] border border-white/[0.1] bg-[linear-gradient(135deg,rgba(255,255,255,0.05),rgba(59,130,246,0.06))] px-6 py-12 text-center sm:px-12 sm:py-16">
             <div
               className="pointer-events-none absolute inset-0"
               style={{
                 background:
-                  'radial-gradient(circle at 50% 0%, rgba(255,121,238,0.16), transparent 48%)',
+                  'radial-gradient(circle at 50% 0%, rgba(59,130,246,0.16), transparent 48%)',
               }}
               aria-hidden
             />

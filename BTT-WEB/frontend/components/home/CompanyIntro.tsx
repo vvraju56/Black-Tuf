@@ -29,7 +29,7 @@ export function CompanyIntro({ settings }: { settings: SiteSettings }) {
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            'radial-gradient(ellipse at 15% 20%, rgba(255,121,238,0.055), transparent 40%)',
+            'radial-gradient(ellipse at 15% 20%, rgba(59,130,246,0.055), transparent 40%)',
         }}
         aria-hidden
       />

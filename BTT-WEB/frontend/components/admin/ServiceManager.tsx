@@ -430,7 +430,7 @@ export function ServiceManager({ initialServices }: { initialServices: Service[]
                   type="checkbox"
                   checked={draft.published}
                   onChange={(event) => set('published', event.target.checked)}
-                  className="h-4 w-4 accent-[#ff79ee]"
+                  className="h-4 w-4 accent-[#3b82f6]"
                 />
               </label>
             </div>

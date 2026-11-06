@@ -17,7 +17,7 @@ export function ProductLogo({
   return (
     <div
       className={cn(
-        'relative flex shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-white/10 bg-[linear-gradient(145deg,rgba(255,255,255,0.09),rgba(255,121,238,0.06))]',
+        'relative flex shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-white/10 bg-[linear-gradient(145deg,rgba(255,255,255,0.09),rgba(59,130,246,0.06))]',
         className
       )}
     >
@@ -25,7 +25,7 @@ export function ProductLogo({
         className="pointer-events-none absolute inset-0 opacity-60"
         style={{
           background:
-            'radial-gradient(circle at 25% 15%, rgba(255,121,238,0.22), transparent 55%)',
+            'radial-gradient(circle at 25% 15%, rgba(59,130,246,0.22), transparent 55%)',
         }}
         aria-hidden
       />

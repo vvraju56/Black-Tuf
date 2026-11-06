@@ -51,7 +51,7 @@ in MongoDB through the Express API.
 - Dynamic SEO: per-page metadata, canonical URLs, Open Graph/Twitter cards, JSON-LD, sitemap,
   robots, and web manifest.
 - Custom 404, error boundary, global error, and loading states.
-- Fully responsive dark glassmorphism design with accent `#ff79ee`, motion that respects
+- Fully responsive dark glassmorphism design with accent `#3b82f6`, motion that respects
   `prefers-reduced-motion`, keyboard support, and visible focus states.
 - Graceful degradation: if the API is unreachable, public pages render empty states rather than
   crashing.

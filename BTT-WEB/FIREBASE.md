@@ -89,5 +89,5 @@ npm run build
 ## Branding
 
 BlackTuf Technologies branding, the responsive dark gradient design, the
-`#ff79ee` accent, and the `@blacktuftech` support identity in the footer are
+`#3b82f6` accent, and the `@blacktuftech` support identity in the footer are
 preserved.

@@ -266,7 +266,7 @@ export function ProductExplorer({
                 type="checkbox"
                 checked={featuredOnly}
                 onChange={(event) => setFeaturedOnly(event.target.checked)}
-                className="h-3.5 w-3.5 accent-[#ff79ee]"
+                className="h-3.5 w-3.5 accent-[#3b82f6]"
               />
               Featured only
             </label>

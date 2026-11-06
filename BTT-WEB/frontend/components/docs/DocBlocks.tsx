@@ -35,7 +35,7 @@ function Block({ block }: { block: DocBlock }) {
       <ul className="space-y-2">
         {block.items.map((item) => (
           <li key={item} className="flex items-start gap-2.5 text-[0.9rem] leading-relaxed text-ink-muted">
-            <span className="mt-[0.55em] h-1.5 w-1.5 shrink-0 rounded-full bg-accent shadow-[0_0_8px_rgba(255,121,238,0.7)]" aria-hidden />
+            <span className="mt-[0.55em] h-1.5 w-1.5 shrink-0 rounded-full bg-accent shadow-[0_0_8px_rgba(59,130,246,0.7)]" aria-hidden />
             {item}
           </li>
         ))}

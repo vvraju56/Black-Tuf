@@ -11,13 +11,13 @@ export function LogoMark({ className }: { className?: string }) {
     >
       <defs>
         <linearGradient id="btt-mark-stroke" x1="0" y1="0" x2="44" y2="44">
-          <stop offset="0%" stopColor="#ff79ee" stopOpacity="0.9" />
-          <stop offset="55%" stopColor="#ff79ee" stopOpacity="0.22" />
+          <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.9" />
+          <stop offset="55%" stopColor="#3b82f6" stopOpacity="0.22" />
           <stop offset="100%" stopColor="#ffffff" stopOpacity="0.18" />
         </linearGradient>
         <linearGradient id="btt-mark-fill" x1="12" y1="10" x2="32" y2="34">
           <stop offset="0%" stopColor="#ffe4fb" />
-          <stop offset="55%" stopColor="#ff79ee" />
+          <stop offset="55%" stopColor="#3b82f6" />
           <stop offset="100%" stopColor="#b92ea5" />
         </linearGradient>
       </defs>
@@ -35,8 +35,8 @@ export function LogoMark({ className }: { className?: string }) {
         d="M12.5 11.5h19v5.2H25.3V33h-5.9V16.7H12.5z"
         fill="url(#btt-mark-fill)"
       />
-      <path d="M31.2 11.5 35 15.3l-3.8 3.8v-7.6Z" fill="#ff79ee" opacity="0.55" />
-      <circle cx="31.4" cy="31.6" r="2.1" fill="#ff79ee" />
+      <path d="M31.2 11.5 35 15.3l-3.8 3.8v-7.6Z" fill="#3b82f6" opacity="0.55" />
+      <circle cx="31.4" cy="31.6" r="2.1" fill="#3b82f6" />
     </svg>
   );
 }

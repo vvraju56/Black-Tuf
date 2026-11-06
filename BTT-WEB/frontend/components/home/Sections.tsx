@@ -61,7 +61,7 @@ export function Capabilities({ products }: { products: Product[] }) {
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            'radial-gradient(ellipse at 20% 60%, rgba(255,121,238,0.055), transparent 38%)',
+            'radial-gradient(ellipse at 20% 60%, rgba(59,130,246,0.055), transparent 38%)',
         }}
         aria-hidden
       />
@@ -271,12 +271,12 @@ export function HomeCTA() {
     <section className="pb-24 pt-8 sm:pb-28">
       <div className="container-page">
         <Reveal>
-          <div className="relative overflow-hidden rounded-[2rem] border border-white/[0.1] bg-[linear-gradient(135deg,rgba(255,255,255,0.06),rgba(255,121,238,0.06))] px-6 py-14 text-center sm:px-12 sm:py-20">
+          <div className="relative overflow-hidden rounded-[2rem] border border-white/[0.1] bg-[linear-gradient(135deg,rgba(255,255,255,0.06),rgba(59,130,246,0.06))] px-6 py-14 text-center sm:px-12 sm:py-20">
             <div
               className="pointer-events-none absolute inset-0"
               style={{
                 background:
-                  'radial-gradient(circle at 50% 0%, rgba(255,121,238,0.18), transparent 45%)',
+                  'radial-gradient(circle at 50% 0%, rgba(59,130,246,0.18), transparent 45%)',
               }}
               aria-hidden
             />

@@ -22,7 +22,7 @@ export function ProductCard({
   return (
     <article
       className={cn(
-        'group relative flex h-full flex-col overflow-hidden rounded-3xl border border-white/[0.08] bg-[linear-gradient(165deg,rgba(255,255,255,0.055),rgba(255,255,255,0.022)_52%,rgba(255,121,238,0.025))] shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-accent/25 hover:shadow-glow',
+        'group relative flex h-full flex-col overflow-hidden rounded-3xl border border-white/[0.08] bg-[linear-gradient(165deg,rgba(255,255,255,0.055),rgba(255,255,255,0.022)_52%,rgba(59,130,246,0.025))] shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-accent/25 hover:shadow-glow',
         className
       )}
     >

@@ -4,8 +4,8 @@
 
 :root {
   color-scheme: dark;
-  --accent: #ff79ee;
-  --accent-soft: #ffb8f4;
+  --accent: #3b82f6;
+  --accent-soft: #93c5fd;
   --bg: #050505;
   --surface: rgba(255, 255, 255, 0.04);
   --hairline: rgba(255, 255, 255, 0.08);
@@ -163,18 +163,18 @@ video {
     font-weight: 600;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: #ffb8f4;
+    color: #93c5fd;
   }
 
   .eyebrow::before {
     content: '';
     width: 1.4rem;
     height: 1px;
-    background: linear-gradient(90deg, transparent, #ff79ee);
+    background: linear-gradient(90deg, transparent, #3b82f6);
   }
 
   .text-gradient {
-    background: linear-gradient(100deg, #ffffff 10%, #ffd7f9 50%, #ff79ee 100%);
+    background: linear-gradient(100deg, #ffffff 10%, #dbeafe 50%, #3b82f6 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -211,7 +211,7 @@ video {
   }
 
   .btn-primary {
-    background: linear-gradient(135deg, #ff79ee 0%, #e75ad4 100%);
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
     color: #180514;
     box-shadow:
       0 1px 0 rgba(255, 255, 255, 0.25) inset,
@@ -219,7 +219,7 @@ video {
   }
 
   .btn-primary:hover {
-    background: linear-gradient(135deg, #ff9af2 0%, #ff79ee 100%);
+    background: linear-gradient(135deg, #93c5fd 0%, #3b82f6 100%);
     box-shadow:
       0 1px 0 rgba(255, 255, 255, 0.3) inset,
       0 22px 55px -18px rgba(255, 121, 238, 0.75);
@@ -357,7 +357,7 @@ video {
   }
 
   .article-body a {
-    color: #ffb8f4;
+    color: #93c5fd;
     text-underline-offset: 3px;
     text-decoration: underline;
     text-decoration-color: rgba(255, 121, 238, 0.35);
@@ -402,7 +402,7 @@ video {
     width: 5px;
     height: 5px;
     border-radius: 9999px;
-    background: #ff79ee;
+    background: #3b82f6;
     box-shadow: 0 0 10px rgba(255, 121, 238, 0.8);
   }
 }

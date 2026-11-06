@@ -48,7 +48,7 @@ export function ProductDirectoryPreview({ products }: { products: Product[] }) {
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            'radial-gradient(ellipse at 85% 15%, rgba(255,121,238,0.06), transparent 35%)',
+            'radial-gradient(ellipse at 85% 15%, rgba(59,130,246,0.06), transparent 35%)',
         }}
         aria-hidden
       />
