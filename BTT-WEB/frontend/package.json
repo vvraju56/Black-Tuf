@@ -9,6 +9,9 @@
     "typecheck": "tsc --noEmit",
     "lint": "next lint"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^11.18.2",
