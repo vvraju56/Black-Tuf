@@ -1,0 +1,32 @@
+{
+  "name": "blacktuf-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official website and central product hub for BlackTuf Technologies.",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently -n web,api -c magenta,cyan \"npm:dev:web\" \"npm:dev:api\"",
+    "dev:web": "npm --workspace frontend run dev",
+    "dev:api": "npm --workspace backend run dev",
+    "build": "npm --workspace frontend run build",
+    "start": "npm --workspace frontend run start",
+    "start:api": "npm --workspace backend run start",
+    "seed": "npm --workspace backend run seed",
+    "seed:admin": "npm --workspace backend run seed:admin",
+    "typecheck": "npm --workspace frontend run typecheck && npm --workspace backend run typecheck"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "8.5.32"
+    }
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
