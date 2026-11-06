@@ -31,6 +31,10 @@ export const env = {
     apiKey: process.env.CLOUDINARY_API_KEY || '',
     apiSecret: process.env.CLOUDINARY_API_SECRET || '',
   },
+  firebase: {
+    projectId: process.env.FIREBASE_PROJECT_ID || '',
+    storageBucket: process.env.FIREBASE_STORAGE_BUCKET || '',
+  },
   admin: {
     name: process.env.ADMIN_NAME || 'BlackTuf Admin',
     email: process.env.ADMIN_EMAIL || '',

@@ -50,3 +50,10 @@ coverage/
 .vercel
 .netlify
 .wrangler
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.serviceAccount*.json
