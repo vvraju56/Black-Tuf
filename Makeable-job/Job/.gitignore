@@ -46,6 +46,7 @@ __pycache__/
 
 # Flutter
 mobile/android/app/.dart_tool/
+mobile/android/.gradle/
 mobile/.dart_tool/
 mobile/.flutter-plugins-dependencies
 mobile/ios/Flutter/ephemeral/
